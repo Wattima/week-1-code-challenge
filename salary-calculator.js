@@ -39,7 +39,7 @@ console.log(`Your total deductables is ${deductions}.`);
 console.log(`Your net income is ${net}.`);
 
 
-
+//Some assumption in this program is that the Paye rate is a standard 20 percent, which I converted to decimal 0.2 
 
 
 
