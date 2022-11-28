@@ -24,7 +24,7 @@ let paye = 0.2 * gross;
 let deductions = (paye+nhif+nssf);
 
 //Net income is total gross minus all deductions
-let net = gross-deductions;
+let net = (gross-deductions);
 
 //prints the gross amount
 console.log(`Your gross income is ${gross}.`);
