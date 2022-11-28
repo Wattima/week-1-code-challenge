@@ -20,15 +20,20 @@ function speedDetector() {
     } 
     //else condition where the speed of car is greater than the speed limit
     else if(carSpeed > speedLimit) {
+        //Declared a variable demerit points which is a result of dividing the excess speed by 5
         let demeritPoints = (carSpeed-speedLimit)/5;
+        //if the demerit points are less than 12, it prints the points available in integer
         if(demeritPoints<=12) {
             return `Points: ${parseInt(demeritPoints)}`;
-        } else if (demeritPoints > 12){
+        } 
+        //if demerit points are more than 12, it returns that License is suspended
+        else if (demeritPoints > 12){
             return `License Suspended!!`;
         }
     }
 
 }
+//this calls the function speed detector 
 speedDetector();
 
 
