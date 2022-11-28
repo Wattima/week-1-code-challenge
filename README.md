@@ -1,6 +1,6 @@
 # Week 1 Code Challenge
 
-##Challenges 
+##Three Challenges 
 
 Challenge 1: Student Grade Generator (Toy Problem)
 Challenge 2: Speed Detector (Toy Problem)
@@ -37,5 +37,48 @@ The program Calculates the paye tax, NHIF Deductions, NSSF Deductions, gross sal
 ##Conclusion
 This being my first attempt at writing Javascript programs, the programs might not be as dynamic as one would expect. The programs are pretty dependent on user inputs which is something that we can definitely improve on. However, the programs try to solve specific tasks and that's a step in the right direction in my coding journey!
 
-##Authors
-https://github.com/KarimCarl
+
+
+## REQUIREMENTS
+### Prerequisites
+* node v14.17.4 and above
+* npm 6.14.14 and above
+* Vue 2.6.11
+* Then install the various packages from package.json `npm install`
+* Create environment variables
+
+##Author: 
+* **Charles Ndung'u** - *Initial work*-[KarimCarl] (https://github.com/KarimCarl)
+
+
+Status:  Maintained, and is currently in development
+
+Version:
+    v0.1.0
+
+
+## License
+MIT License
+Copyright (c) 2022 Moringa School
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+##Resources
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+https://www.w3schools.com/js/
+
