@@ -16,7 +16,7 @@ function speedDetector() {
     } else if(carSpeed > speedLimit) {
         let demeritPoints = (carSpeed-speedLimit)/5;
         if(demeritPoints<=12) {
-            return `${demeritPoints}`;
+            return `Points: ${demeritPoints}`;
         } else if (demeritPoints > 12){
             return `License Suspended!!!!!`;
         }
