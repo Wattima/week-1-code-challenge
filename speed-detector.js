@@ -1,24 +1,30 @@
 // Speed Detector
-// Write a program that takes as input the speed of a car e.g 80. 
-// If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), 
+
+//Otherwise, for every 5 km/s above the speed limit (70), 
 // it should give the driver one demerit point and print the total number of demerit points.
 
 // For example, if the speed is 80, it should print: “Points: 2”. 
 // If the driver gets more than 12 points, the function should print: “License suspended”.
 
 
+//Declared a function called speedDetector
 function speedDetector() {
+    //Created a variable with a speed limit of 70
     let speedLimit = 70;
-    let carSpeed = prompt();
+    //Created a variable which prompts the user to input the speed of car
+    let carSpeed = prompt(`Enter speed of car`);
     
+    //if the speed of car is less than the speed limit, it returns Ok
     if (carSpeed <= speedLimit) {
         return `Ok.`;
-    } else if(carSpeed > speedLimit) {
+    } 
+    //else condition where the speed of car is greater than the speed limit
+    else if(carSpeed > speedLimit) {
         let demeritPoints = (carSpeed-speedLimit)/5;
         if(demeritPoints<=12) {
-            return `Points: ${demeritPoints}`;
+            return `Points: ${parseInt(demeritPoints)}`;
         } else if (demeritPoints > 12){
-            return `License Suspended!!!!!`;
+            return `License Suspended!!`;
         }
     }
 
