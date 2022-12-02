@@ -1,10 +1,10 @@
 // TASK: Aprogram that calculates an individual’s Net Salary by getting the inputs of basic salary and benefits.
 // Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary.
 
+
+//created a function called netSalaryCalculator where all conditions will be set
 function netSalaryCalculator () {
 
-//variable declarations 
-   // let basicSalary = parseInt(prompt(`Enter your basic salary in number: `))
     //if basic salary is equal or less than 24000,  paye is 10 percent
     if (basicSalary <= 24000) {
         paye = basicSalary / 10;
